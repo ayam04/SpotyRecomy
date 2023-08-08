@@ -1,7 +1,7 @@
 # USAGE : python main.py
 from keras.models import load_model
 from time import sleep
-from tensorflow.keras.utils import img_to_array
+from tensorflow.python.keras.utils import img_to_array
 from keras.preprocessing import image
 import cv2
 import numpy as np
